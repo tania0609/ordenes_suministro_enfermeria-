@@ -29,6 +29,24 @@
     white-space: nowrap; /* Evita saltos de línea innecesarios */
 }
 
+
+li.bi.bi-files {
+    background-color: rgb(255, 255, 255); /* Cambia el fondo del <li> */
+    padding: 5px; /* Opcional: agrega espacio interno */
+    display: inline-block; /* Mantiene el tamaño adecuado */
+}
+
+
+
+input#search {
+    background-color: rgb(243, 240, 240); /* Cambia el fondo del input */
+    border: none; /* Opcional: quita el borde si no lo quieres */
+    padding: 5px; /* Opcional: agrega espacio interno */
+}
+
+
+
+
 #sugerencias div {
     padding: 8px 12px;
     font-size: 13px;
@@ -105,9 +123,9 @@ textarea[readonly] {
 
 /* Estilo del contenedor de la lista de pacientes */
 #patient-list-container {
-    background: #d5b2bb;
+    background: #a75353;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d5b2bb);
+    background: -webkit-linear-gradient(to right, #7a2828);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(164, 54, 54));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -121,7 +139,7 @@ textarea[readonly] {
     /* Color y grosor del borde */
     border-radius: 10px;
     /* Esquinas redondeadas */
-    box-shadow: 0 4px 8px rgb(213, 178, 187);
+    box-shadow: 0 4px 8px rgb(158, 71, 93);
     /* Sombra suave */
     margin: 15px auto;
     /* Centrado horizontal */
