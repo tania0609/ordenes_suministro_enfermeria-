@@ -1,0 +1,429 @@
+
+/* Animación de la palomita */
+.checkmark-icon i {
+    animation: fadeInCheckmark 1s ease-in-out;
+}
+
+@keyframes fadeInCheckmark {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Centrar el modal */
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Estilo adicional para el header */
+.custom-header {
+    background: #530256;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a73737, #7a2828);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a73737, #7a2828);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+    /* Ajusta la altura del encabezado según tus necesidades */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    /* Color de texto blanco para mayor visibilidad */
+    font-size: 15px;
+}
+
+/* Estilo para el texto del header */
+.header-text {
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+}
+
+/* Estilos para el footer */
+.custom-footer {
+    background: #530256;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a73737, #7a2828);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a73737, #7a2828);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    /* Alinea los elementos en una columna */
+    justify-content: center;
+    /* Alinea horizontalmente los elementos del footer */
+    align-items: center;
+    /* Alinea verticalmente los elementos del footer */
+    padding: 0 20px;
+    color: rgba(134, 134, 134, 0.794);
+    font-size: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para los elementos span dentro del footer */
+.custom-footer span {
+    line-height: 0.3;
+    /* Ajusta el interlineado */
+}
+
+/* Estilo para el fondo de color del título del modal */
+.modal-title-bg {
+    background-color: #941574;
+    /* Cambia esto al color que desees */
+    color: white;
+    /* Cambia el color del texto si es necesario */
+    padding: 10px;
+    /* Ajusta el relleno según sea necesario */
+    margin: 0;
+    /* Ajusta el margen según sea necesario */
+}
+
+.modal-title-bt {
+    background-color: #C88E86;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.modal-title-fim {
+    background-color: #7B7DAD;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.fim-puntaje {
+    margin-top: 12px;
+    color: rgb(121, 118, 173);
+    font-size: 14px;
+    text-align: left;
+}
+
+.fim-pregunta {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.fim-select {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+
+
+
+/* Estilos para los colores de los select */
+.verde {
+    background-color: rgb(176, 222, 176, 0.5);
+}
+
+.amarillo {
+    background-color: rgb(245, 249, 159, 0.5);
+}
+
+.rojo {
+    background-color: rgb(228, 166, 166, 0.5);
+}
+
+
+
+/* Estilos RANKIN */
+.rankin-header {
+    background-color: #89B2A2;
+    color: aliceblue;
+}
+
+
+
+
+/* estilos Motricity index */
+
+.mi-header {
+    background-color: rgb(189, 170, 121, 0.8);
+    color: aliceblue;
+}
+
+
+.marcha-header {
+    background-color: #C28CA6;
+    color: aliceblue
+}
+
+header {
+    background: #008077;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a73737, #7a2828);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a73737, #7a2828);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 50px;
+    /* Ajusta la altura del encabezado según tus necesidades */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    /* Color de texto blanco para mayor visibilidad */
+}
+
+header a {
+    /* COLOR A LA LETRA HRAEI */
+    display: inline;
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    /* Aumenta el tamaño de la letra */
+}
+
+.estilomodal {
+    background: linear-gradient(to right, #a73737, #7a2828);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.estilomodal h1 {
+    display: inline;
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a73737, #7a2828);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a73737, #7a2828);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ececec;
+    text-align: center;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h5.bi {
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-size: 2.0em;
+    /* Ajusta el tamaño de la fuente según tus preferencias */
+    margin-top: 20px;
+    /* Ajusta la separación entre el ícono y el texto */
+}
+
+
+
+
+.custom-header {
+    color: aliceblue;
+    background-color: #ffffff;
+    /* Cambia esto al color que desees */
+    /* Otros estilos opcionales, como color de texto, espaciado, etc. */
+    /* Cambia el color del texto si es necesario */
+    padding: 10px;
+    /* Añade espaciado alrededor del contenido del encabezado */
+}
+
+
+
+
+/*TABLA
+*/
+
+
+/* Estilo para el encabezado de la tabla */
+.tabla-consulta th {
+    background-color: #ffffff;
+    color: aliceblue;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* Estilo para las celdas con la clase "estilo-celda" */
+.tabla-consulta td.estilo-celda {
+    font-weight: bold;
+    color: black;
+    /* Cambia el color del texto de las celdas con esta clase */
+}
+
+
+.seguimiento_btns {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* pantalla de carga */
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(151, 150, 150, 0.97);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.loading svg polyline {
+    fill: none;
+    stroke-width: 6;
+    /* Aumentar el grosor de la línea */
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+    fill: none;
+    stroke: #ff4d5033;
+}
+
+.loading svg polyline#front {
+    fill: none;
+    stroke: #fb3437;
+    stroke-dasharray: 96, 288;
+    /* Ajustar la longitud del dasharray y el dashoffset */
+    stroke-dashoffset: 384;
+    animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+    72.5% {
+        opacity: 0;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+.content {
+    width: 95%;
+    padding: 1em;
+    box-sizing: border-box;
+    float: left;
+}
+
+.fieldset-botones {
+    padding: 1em;
+    border-color: #FFC107;
+    border-style: solid;
+    border-width: 3.5px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+#fieldset-especial {
+    border-color: #963131; /* Cambia el color del borde */
+    background: #f8f9fa;   /* Cambia el color de fondo */
+}
+
+#fieldset-especial-excel {
+    border-color: #198754; /* Cambia el color del borde */
+    background: #f8f9fa;   /* Cambia el color de fondo */
+    border-width: 2.5px;
+}
+
+
+
+.contratos  {
+    padding: 1.2em;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+.fieldset-otros {
+    padding: 1em;
+    border-color: #d4d4d4;
+    border-style: solid;
+    border-width: 1px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;    
+}
+
+
+/* Media query para pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    form {
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+
+
+.btn-circular {
+    width: 100px; /* Ajusta el tamaño según tu preferencia */
+    height: 39px; /* Debe ser igual al ancho para hacer el botón circular */
+    border-radius: 10px; /* Hace que el botón sea circular */
+    background-color: #0066ff; /* Color de fondo */
+    border: none; /* Elimina el borde */
+    color: white; /* Color del texto */
+    display: flex; /* Centra el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.btn-circular:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 1px; /* Espacio entre los elementos */
+}
+
+.buscador{
+    padding: 20px;
+    background-color: #203852;
+    border-radius: 5px;
+}
